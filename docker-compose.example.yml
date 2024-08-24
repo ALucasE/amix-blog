@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  db: # nombre del servicio (A la hora de conectarnos a pgadmin y django seria el hostname)
+    image: postgres:14.10  # nombre de la imagen
+    restart: always  # en caso de error se reinicia automaticamente
+    container_name: postgresql  # nombre del contenedor
+    volumes:
+      - ./data/db:/var/lib/postgresql/data  # Para persistir los datos en el disco local en la carpera donde este este archivo + /data/db
+    environment:
+      - DATABASE_HOST=127.0.0.1
+      - POSTGRES_DB=my_database  # nombre de la base de datos (se puede modificar)
+      - POSTGRES_USER=admin  # nombre de usuario de posgres (se puede modificar)
+      - POSTGRES_PASSWORD=admin  # contraseña de postgres (se puede modificar)
+    ports:
+      - "5432:5432"  # puerto local : puerto del docker
+
+  pgadmin:
+    image: dpage/pgadmin4 
+    container_name: pgadmin
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@admin.com # nombre de usuario de pgadmin (se puede modificar)
+      - PGADMIN_DEFAULT_PASSWORD=admin # contraseña de pgadmin (se puede modificar)
+    ports:
+      - "80:80" # puerto local : puerto del docker
+    depends_on:
+      - db # nombre del servicio (A la hora de conectarnos a pgadmin y django seria el hostname)
+
+  web:
+    build: .
+    container_name: django
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - .:/code # Para persistir los datos en el disco local en la carpeta donde esta este archivo + /code/
+    ports:
+      - "8000:8000" # puerto local : puerto del docker
+    environment: # variables de entorno
+      - POSTGRES_NAME=my_database
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=admin
+    depends_on:
+      - db # nombre del servicio (A la hora de conectarnos a pgadmin y django seria el hostname)
