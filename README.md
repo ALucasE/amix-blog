@@ -21,8 +21,11 @@ This is a Django project template.
 ```sh
 docker compose run web django-admin startproject [nombre_proyecto] .
 ```
-
 (Va con el punto al final)
+
+```sh
+docker compose up
+```
 
 4. Ingresamos al VSC al Docker con el Explorador remoto y creamos las carpetas extras
 
