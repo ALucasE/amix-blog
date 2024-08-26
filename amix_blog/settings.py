@@ -29,7 +29,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0', '192.168.1.100']
 
 
-#Aquí las aplicaciones por defecto
+# Aquí las aplicaciones por defecto
 BASE_APP = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -38,15 +38,12 @@ BASE_APP = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
-#Aquí las aplicaciones de terceros
+# Aquí las aplicaciones de terceros
 THIRD_APP = [
-    #Configuración para
-
+    # Configuración para
 ]
-#Aquí las aplicaciones propias (Ordenar alfabéticamente)
-OWN_APP = [
-
-]
+# Aquí las aplicaciones propias (Ordenar alfabéticamente)
+OWN_APP = ['blog.apps.BlogConfig']
 INSTALLED_APPS = BASE_APP + THIRD_APP + OWN_APP
 
 MIDDLEWARE = [
@@ -92,7 +89,7 @@ WSGI_APPLICATION = 'amix_blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'amix_blog', #Reemplazar por el nombre de la base de datos del archivo docker-compose.yml
+        'NAME': 'amix_blog',  # Reemplazar por el nombre de la base de datos del archivo docker-compose.yml
         'USER': config('USER_DB'),
         'PASSWORD': config('PASSWORD_DB'),
         'HOST': 'db',
@@ -138,7 +135,8 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
-    BASE_DIR / 'static', ]
+    BASE_DIR / 'static/',
+]
 
 MEDIA_URL = '/media/'
 
@@ -148,5 +146,3 @@ MEDIA_ROOT = BASE_DIR / 'media'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-

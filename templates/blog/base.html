@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+{% load static %}
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Etiquetas META -->
+  <!-- Indica la descripción de la página que aparece en buscadores. -->
+  <meta name="description" content="Aplicacion de blog ">
+  <!-- Lista de palabras clave separadas por comas. Google no la tiene en cuenta. -->
+  <meta name="keywords" content="blog publicaciones post">
+  <!-- Indica el nombre del autor de la página. -->
+  <meta name="author" content="Lucas Acosta">
+  <!-- Indica el nombre de la aplicación web. Debería usarse sólo si es una webapp. -->
+  <meta name="application-name" content="Blog Amix">
+  <!-- El navegador coloreará la barra de direcciones con el color hexadecimal -->
+  <meta name="theme-color" content="#2C5781">
+  <!-- CDN CSS Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <title>{% block title %}{% endblock %}</title>
+  <link href="{% static 'css/blog.css'  %}" rel="stylesheet">
+</head>
+
+<body>
+  <main class="container">
+    <div id="content">
+      {% block content %}
+      {% endblock %}
+    </div>
+    <div id="sidebar">
+      <h2>Amix Blog</h2>
+      <p>Bienvenidos a Amix Blog, tu portal definitivo para todo lo relacionado con los juegos online con amigos!</p>
+    </div>
+  </main>
+  <!-- CDN JS Boostrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
