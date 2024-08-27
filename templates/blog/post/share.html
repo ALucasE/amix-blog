@@ -1,0 +1,17 @@
+{% extends "blog/base.html" %}
+{% block title %}Compartir publicacion{% endblock %}
+{% block content %}
+{% if sent %}
+<h1>E-mail fue enviado con exito!</h1>
+<p>
+    "{{ post.title }}" fue enviado exitosamente a {{ form.cleaned_data.to }}.
+</p>
+{% else %}
+<h1>Compartir "{{ post.title }}" por correo electrónico</h1>
+<form method="post">
+    {{ form.as_p }}
+    {% csrf_token %}
+    <input type="submit" value="Send e-mail">
+</form>
+{% endif %}
+{% endblock %}
