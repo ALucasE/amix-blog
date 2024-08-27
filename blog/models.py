@@ -15,14 +15,14 @@ class Post(models.Model):
         DRAFT = 'DF', 'Borrador'
         PUBLISHED = 'PB', 'Publicado'
 
-    title = models.CharField(max_length=250)
+    title = models.CharField(max_length=250, verbose_name='Titulo')
     slug = models.SlugField(
         max_length=250,
         unique_for_date='publish',
     )
-    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='blog_post')
-    body = models.TextField()
-    publish = models.DateTimeField(default=timezone.now)
+    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='blog_post', verbose_name='Autor')
+    body = models.TextField(verbose_name='Cuerpo')
+    publish = models.DateTimeField(default=timezone.now, verbose_name='Fecha de publicacion')
     created = models.DateTimeField(auto_now_add=True, verbose_name='Fecha de creacion')
     updated = models.DateTimeField(auto_now=True, verbose_name='Fecha de modificación')
     status = models.CharField(max_length=2, choices=Status.choices, default=Status.DRAFT, verbose_name='Estado')
@@ -46,3 +46,24 @@ class Post(models.Model):
 
     def get_absolute_url(self):
         return reverse('blog:post_detail', args=[self.publish.year, self.publish.month, self.publish.day, self.slug])
+
+
+class Comment(models.Model):
+    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='comments', verbose_name='Publicación')
+    name = models.CharField(max_length=80, verbose_name='Nombre')
+    email = models.EmailField(verbose_name='Correo electronico')
+    body = models.TextField(verbose_name='Comentario')
+    created = models.DateTimeField(auto_now_add=True, verbose_name='Fecha de creacion')
+    updated = models.DateTimeField(auto_now=True, verbose_name='Fecha de modificación')
+    active = models.BooleanField(default=True)
+
+    class Meta:
+        verbose_name = 'Comentario'
+        verbose_name_plural = 'Comentarios'
+        ordering = ['created']
+        indexes = [
+            models.Index(fields=['created']),
+        ]
+
+    def __str__(self):
+        return f'Comment by {self.name} on {self.post}'
