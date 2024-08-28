@@ -40,7 +40,8 @@ BASE_APP = [
 ]
 # Aquí las aplicaciones de terceros
 THIRD_APP = [
-    # Configuración para
+    # pip install django-taggit==3.0.0
+    'taggit',
 ]
 # Aquí las aplicaciones propias (Ordenar alfabéticamente)
 OWN_APP = ['blog.apps.BlogConfig']
