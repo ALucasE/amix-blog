@@ -1,0 +1,1304 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-08-25T04:55:44.454Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Plan de Aprendizaje Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-08-25T04:55:48.200Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Plan de Aprendizaje Django",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-08-25T06:09:48.779Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Fase 1: Fundamentos",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-08-25T06:42:42.789Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "Another post",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-08-25T06:42:42.824Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "Another post",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-08-25T06:56:41.285Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Plan de Aprendizaje Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Estado\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-08-25T06:58:21.978Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Plan de Aprendizaje Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Estado\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-08-26T01:14:15.486Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Plan de Aprendizaje Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Estado\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-08-26T01:14:52.797Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Plan de Aprendizaje Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-08-26T01:15:11.285Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Plan de Aprendizaje Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-08-26T02:39:35.502Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Fase 1: Fundamentos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Estado\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-08-26T02:41:44.574Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Fase 2: Características Esenciales",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-08-26T02:41:56.915Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Fase 2: Características Esenciales",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-08-26T14:57:26.201Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Fase 2: Características Esenciales",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-08-26T14:59:41.717Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Fase 2: Características Esenciales",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-08-26T15:00:01.112Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Fase 2: Características Esenciales",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Publish\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-08-26T15:00:23.287Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Plan de Aprendizaje Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Estado\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-08-26T15:00:31.390Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Plan de Aprendizaje Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Estado\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-08-26T15:12:40.255Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "Fase 2: Características Esenciales",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-08-26T15:12:43.810Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Fase 2: Características Esenciales",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-08-27T00:33:55.024Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Comment by Lucas Ezequiel Acosta on Plan de Aprendizaje Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-08-27T01:13:15.651Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comment by Maria on Plan de Aprendizaje Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-08-27T01:16:36.509Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Comment by Antonio on Plan de Aprendizaje Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-08-27T01:24:53.570Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Comment by Lucas on Plan de Aprendizaje Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Publicaci\\u00f3n\", \"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-08-27T01:25:23.068Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Comment by Lucas on Fase 2: Características Esenciales",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Publicaci\\u00f3n\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-08-27T01:25:52.655Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Comment by Lucas on Fase 2: Características Esenciales",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-08-27T02:05:47.567Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Programacion",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-08-27T02:05:57.344Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Django",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-08-27T02:06:03.952Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Python",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-08-27T02:08:55.473Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Plan de Aprendizaje Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-08-27T02:09:50.715Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Django",
+    "action_flag": 2,
+    "change_message": "[{\"added\": {\"name\": \"tagged item\", \"object\": \"Plan de Aprendizaje Django tagged with Django\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-08-28T14:35:48.062Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Fase 1: Fundamentos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2024-08-28T14:36:02.112Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "django",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2024-08-28T14:36:08.566Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2024-08-28T14:36:14.780Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "estudiar",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2024-08-28T14:36:20.999Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "programacion",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2024-08-28T14:36:27.077Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "python",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2024-08-28T14:36:40.322Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Fase 1: Fundamentos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2024-08-28T14:36:50.060Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Fase 2: Características Esenciales",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Tags\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2024-08-28T19:05:50.993Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Fase 2: Características Esenciales",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Cuerpo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2024-08-28T19:07:15.533Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Fase 1: Fundamentos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Cuerpo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2024-08-28T19:07:58.062Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "Fase 2: Características Esenciales",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Cuerpo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2024-08-28T19:08:48.137Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "Fase 1: Fundamentos",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Cuerpo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2024-08-28T19:11:03.085Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Plan de Aprendizaje Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Cuerpo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2024-08-28T19:21:32.989Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "Plan de Aprendizaje Django",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Cuerpo\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2024-08-28T21:13:37.174Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Publicación",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change Publicación",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete Publicación",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view Publicación",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add Comentario",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change Comentario",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete Comentario",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view Comentario",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$8Y96JTBrhnlHwpCPzrehti$2c3toxiCX9mU2d+Kr5khhlpBLDWUmUgQFhpGrOQQDtw=",
+    "last_login": "2024-08-28T18:46:04.456Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-08-25T04:50:48.563Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8hmki2k80y6fmrcdhdzzjoi6dt7rx5wl",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMIA-X7vsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3ZhwE6_W8T0oLaDfMd26zz1ti5z5LvCDzr41DM9r4f7d1Bx1G9dBIkojUFBRiQjlCKnnC4erCQNCdAWAC21iR7PxScSBRxqaWVMqBV7fwDMEzda:1sikNh:4MNm4WDN_4LIs5lkuvT3X-LOxq9Y0m-t2Ja4iU2cCgc",
+    "expire_date": "2024-09-10T00:48:21.495Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rkbeo2uf43stq3qiso1w7l1mtvlb9xfc",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMIA-X7vsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3ZhwE6_W8T0oLaDfMd26zz1ti5z5LvCDzr41DM9r4f7d1Bx1G9dBIkojUFBRiQjlCKnnC4erCQNCdAWAC21iR7PxScSBRxqaWVMqBV7fwDMEzda:1si6x5:zAxQvzAkQtfw2j039Wp5t5g9kG9JhGktirCd1RRJJ8s",
+    "expire_date": "2024-09-08T06:42:15.884Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "s5870q1t9v89dz8pl0ieqs0s2nuejbox",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMIA-X7vsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3ZhwE6_W8T0oLaDfMd26zz1ti5z5LvCDzr41DM9r4f7d1Bx1G9dBIkojUFBRiQjlCKnnC4erCQNCdAWAC21iR7PxScSBRxqaWVMqBV7fwDMEzda:1si5De:JGOO3LCtP1rO1taQFrvDJuraWGDYESPq_jXXFEy9SWs",
+    "expire_date": "2024-09-08T04:51:14.288Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tpy1r8sdo8tqdn7mpkxm4s6dx9b7376j",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAQRf-FtSEMIA-X7vsNZIBBqgaS0q6M_65NutDtPefcFwu4rTVsg5YwZ3ZhwE6_W8T0oLaDfMd26zz1ti5z5LvCDzr41DM9r4f7d1Bx1G9dBIkojUFBRiQjlCKnnC4erCQNCdAWAC21iR7PxScSBRxqaWVMqBV7fwDMEzda:1sjNgC:L5L63bfxeansYKCGBZtiwwf_WYrO8wfUZIx5uGpGPEE",
+    "expire_date": "2024-09-11T18:46:04.490Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 1,
+  "fields": {
+    "name": "programacion",
+    "slug": "programacion"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 2,
+  "fields": {
+    "name": "django",
+    "slug": "django"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 3,
+  "fields": {
+    "name": "python",
+    "slug": "python"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "estudiar",
+    "slug": "estudiar"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 1,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 2,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 1
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 2
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 2,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 1,
+  "fields": {
+    "title": "Plan de Aprendizaje Django",
+    "slug": "plan-de-aprendizaje-django",
+    "author": 1,
+    "body": "### Fase 1: Fundamentos\r\n\r\n- **Modelo-Vista-Controlador (MVC):** Comprende la estructura básica de una aplicación Django y cómo interactúan estos tres componentes.\r\n- **ORM (Object-Relational Mapper):** Aprende a trabajar con bases de datos de manera intuitiva, definiendo modelos y realizando consultas.\r\n- **Vistas:** Crea funciones o clases que reciben solicitudes HTTP y generan respuestas, como páginas HTML.\r\n- **Templates:** Diseña la interfaz de usuario utilizando el lenguaje de plantillas de Django.\r\nURLconf: Configura las URL de tu aplicación y cómo se mapean a las vistas.\r\n\r\n### Fase 2: Características Esenciales\r\n\r\n- **Forms:** Crea formularios para interactuar con el usuario y validar datos.\r\n- **Sessions:** Gestiona las sesiones de usuario para mantener el estado a lo largo de múltiples solicitudes.\r\n- **Authentication:** Implementa sistemas de autenticación para controlar el acceso a diferentes partes de tu aplicación.\r\n- **Admin Interface:** Utiliza la interfaz de administración generada automáticamente por Django para gestionar el contenido de tu sitio.\r\n\r\n### Fase 3: Profundización\r\n\r\n- **Signals:** Crea respuestas personalizadas a eventos específicos dentro de tu aplicación.\r\n- **Generic Views:** Simplifica la creación de vistas comunes como listas y detalles.\r\n- **Class-based Views:** Utiliza clases para definir vistas de una manera más estructurada.\r\n- **Middleware:** Modifica el comportamiento de Django a nivel de solicitud y respuesta.\r\n- **Testing:** Escribe pruebas unitarias para garantizar la calidad de tu código.\r\n\r\n [Enlace al sitio web de Django](https://www.djangoproject.com/).",
+    "publish": "2024-08-25T04:53:51Z",
+    "created": "2024-08-25T04:55:44.449Z",
+    "updated": "2024-08-28T19:21:32.985Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 2,
+  "fields": {
+    "title": "Fase 1: Fundamentos",
+    "slug": "fase-1-fundamentos",
+    "author": 1,
+    "body": "## Semanas 1-4: Fundamentos\r\n\r\n- **Semana 1:** Introducción a Django, instalación, creación de proyectos y aplicaciones.\r\n- **Semana 2:** Modelo-Vista-Controlador (MVC), ORM, creación de modelos y migraciones.\r\n- **Semana 3:** Vistas, templates, URLconf, creación de páginas simples.\r\n- **Semana 4:** Formularios, validación de datos, manejo de sesiones.",
+    "publish": "2024-08-25T06:09:11Z",
+    "created": "2024-08-25T06:09:48.776Z",
+    "updated": "2024-08-28T19:08:48.132Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "Fase 2: Características Esenciales",
+    "slug": "fase-2-caracteristicas-esenciales",
+    "author": 1,
+    "body": "## Fase 2: Características Esenciales\r\n\r\n- **Semana 5:** Autenticación, permisos, creación de usuarios.\r\n- **Semana 6:** Interfaz de administración, personalización y extensión.\r\n- **Semana 7:** Signals, generic views, class-based views.\r\n- **Semana 8:** Middleware, manejo de archivos estáticos.",
+    "publish": "2024-08-26T15:12:09Z",
+    "created": "2024-08-26T15:12:43.772Z",
+    "updated": "2024-08-28T19:07:58.059Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 1,
+    "name": "Lucas Ezequiel Acosta",
+    "email": "alucase@gmail.com",
+    "body": "Excelente articulo!",
+    "created": "2024-08-27T00:33:55.018Z",
+    "updated": "2024-08-27T00:33:55.018Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 1,
+    "name": "Maria",
+    "email": "marcococha@gmail.com",
+    "body": "Muy lindo el articulo!",
+    "created": "2024-08-27T01:13:15.649Z",
+    "updated": "2024-08-27T01:13:15.649Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 3,
+  "fields": {
+    "post": 1,
+    "name": "Antonio",
+    "email": "antonio@live.com",
+    "body": "Para cuando el siguiente articulo?",
+    "created": "2024-08-27T01:16:36.508Z",
+    "updated": "2024-08-27T01:16:36.508Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 4,
+  "fields": {
+    "post": 6,
+    "name": "Lucas",
+    "email": "alucase@gmail.com",
+    "body": "Este es un comentario desde el template.\r\nComo se ve?",
+    "created": "2024-08-27T01:23:13.334Z",
+    "updated": "2024-08-27T01:25:52.653Z",
+    "active": true
+  }
+}
+]
