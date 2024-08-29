@@ -1,0 +1,31 @@
+{% extends 'blog/base.html' %}
+{% load blog_tags %}
+{% block title %}
+  Buscar
+{% endblock %}
+{% block content %}
+  {% include 'blog/post/includes/back_list.html' %}
+  {% if query %}
+    <h1>Publicaciones que contienen "{{ query }}"</h1>
+    <h3>
+      {% with total_results=results.count %}
+        {{ total_results }} resultado{{ total_results|pluralize }} encontrado{{ total_results|pluralize }}
+      {% endwith %}
+    </h3>
+    {% for post in results %}
+      <h4><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h4>
+      {{ post.body|markdown|truncatewords_html:12 }}
+    {% empty %}
+      <p>No hay resultados para su consulta..</p>
+    {% endfor %}
+    <p>
+      <a href="{% url 'blog:post_search' %}">Busca de nuevo</a>
+    </p>
+  {% else %}
+    <h1>Buscar publicaciones</h1>
+    <form method="get">
+      {{ form.as_p }}
+      <input type="submit" value="Buscar" />
+    </form>
+  {% endif %}
+{% endblock %}

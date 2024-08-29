@@ -28,6 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', '0.0.0.0', '192.168.1.100']
 
+SITE_ID = 1
 
 # Aquí las aplicaciones por defecto
 BASE_APP = [
@@ -37,10 +38,13 @@ BASE_APP = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+    'django.contrib.sitemaps',
 ]
 # Aquí las aplicaciones de terceros
 THIRD_APP = [
-    # Configuración para
+    # pip install django-taggit==3.0.0
+    'taggit',
 ]
 # Aquí las aplicaciones propias (Ordenar alfabéticamente)
 OWN_APP = ['blog.apps.BlogConfig']

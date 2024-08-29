@@ -2,6 +2,7 @@ from django.conf import settings
 from django.db import models
 from django.utils import timezone
 from django.urls import reverse
+from taggit.managers import TaggableManager
 
 
 class PublishedManager(models.Manager):
@@ -20,7 +21,9 @@ class Post(models.Model):
         max_length=250,
         unique_for_date='publish',
     )
-    author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='blog_post', verbose_name='Autor')
+    author = models.ForeignKey(
+        settings.AUTH_USER_MODEL, on_delete=models.CASCADE, related_name='blog_post', verbose_name='Autor'
+    )
     body = models.TextField(verbose_name='Cuerpo')
     publish = models.DateTimeField(default=timezone.now, verbose_name='Fecha de publicacion')
     created = models.DateTimeField(auto_now_add=True, verbose_name='Fecha de creacion')
@@ -31,7 +34,8 @@ class Post(models.Model):
     # Post.Status.labels > para obtener los nombres legibles por humanos
     # Post.Status.values > para obtener los valores reales de las opciones
     objects = models.Manager()  # The default manager.
-    published = PublishedManager()  # The manager  personalizado.
+    published = PublishedManager()  # Manager  personalizado.
+    tags = TaggableManager()  #  Manager taggit
 
     class Meta:
         verbose_name = 'Publicación'

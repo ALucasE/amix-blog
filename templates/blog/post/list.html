@@ -1,19 +1,25 @@
-{% extends "blog/base.html" %}
-{% block title %}Amix Blog{% endblock %}
+{% extends 'blog/base.html' %}
+{% load blog_tags %}
+{% block title %}
+  Amix Blog
+{% endblock %}
 {% block content %}
-<h1>Amix Blog</h1>
-{% for post in posts %}
-<h2>
-  <a href="{{ post.get_absolute_url }}">
-    {{ post.title }}
-  </a>
-</h2>
-<p class="date">
-  Published {{ post.publish }} by {{ post.author }}
-</p>
-{{ post.body|truncatewords:30|linebreaks }}
-{% empty %}
-<h2>Aun no se crearon publicaciones!</h2>
-{% endfor %}
-{% include "pagination.html" with page=page_obj %}
+  <h1>Amix Blog</h1>
+  {% if tag %}
+    <h2>Publicaciones etiquetadas con "{{ tag.name }}"</h2>
+  {% endif %}
+  {% for post in posts %}
+    <h2><a href="{{ post.get_absolute_url }}">{{ post.title }}</a></h2>
+    <p class="tags">
+      Etiquetas:{% for tag in post.tags.all %}
+        <a href="{% url 'blog:post_list_by_tag' tag.slug %}"><span class="badge rounded-pill text-bg-info">{{ tag.name|upper }}</span></a>
+        {% if not forloop.last %} {% endif %}
+      {% endfor %}
+    </p>
+    <p class="date">Published {{ post.publish }} by {{ post.author }}</p>
+    {{ post.body|markdown|truncatewords_html:30 }}
+  {% empty %}
+    <h2>Aun no se crearon publicaciones!</h2>
+  {% endfor %}
+  {% include 'pagination.html' with page=posts %}
 {% endblock %}
